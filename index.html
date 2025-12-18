@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rebekah Miller</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script
+      src="https://kit.fontawesome.com/e32304124d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <section id="about-me">
+      <nav>
+        <div class="personal__logo">Rebekah Miller</div>
+        <ul class="nav__link--list">
+          <li class="nav__link">
+            <a
+              href="#languages"
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              >Languages</a
+            >
+          </li>
+          <li class="nav__link">
+            <a
+              href="#projects"
+              class="nav__link--anchor link__hover-effect link__hover-effect--black"
+              >Projects</a
+            >
+          </li>
+          <li class="nav__link">
+            <button
+              id="contact-open"
+              class="nav__link--anchor nav__link--anchor-primary"
+              aria-haspopup="dialog"
+              aria-controls="contact-modal"
+            >
+              Contact
+            </button>
+          </li>
+        </ul>
+        <button
+          id="theme-toggle"
+          class="theme-toggle"
+          aria-label="Toggle dark mode"
+          aria-pressed="false"
+        >
+          <i class="fa-solid fa-moon" aria-hidden="true"></i>
+        </button>
+      </nav>
+      <div class="flex flex-1">
+        <div class="about-me__info row">
+          <div class="about-me__info--container">
+            <figure class="about-me__picture--mask">
+              <img
+                src="assets/me.jpg"
+                class="about-me__picture"
+                alt="Picture of Me!"
+              />
+            </figure>
+            <h1 class="about-me__info--title">
+              Hey! I'm
+              <span class="text--purple">Rebekah Miller</span>&nbsp;<span
+                class="wave"
+                aria-hidden="true"
+                >👋</span
+              >
+            </h1>
+            <p class="about-me__info--para">
+              I build intuitive interfaces and seamless user journeys by
+              blending strong
+              <strong class="text--purple">frontend engineering skills</strong>
+              with a deep appreciation for design and usability.
+            </p>
+            <div class="about-me__links">
+              <a
+                href="https://www.linkedin.com/in/rebekah-miller-a0a26313/"
+                target="_blank"
+                class="about-me__link"
+                aria-label="Visit my LinkedIn profile"
+              >
+                <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+              </a>
+              <a
+                href="https://github.com/Becka8Tech"
+                target="_blank"
+                rel="noreferrer"
+                class="about-me__link"
+                aria-label="Visit my GitHub profile"
+              >
+                <i class="fa-brands fa-github" aria-hidden="true"></i>
+              </a>
+
+              <a 
+                href="mailto:rebekahmiller18@gmail.com" 
+                class="about-me__link"
+                aria-label="Send me an email"
+              >
+                <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+              </a>
+              <a
+                href="assets/Rebekah_Miller_Resume.pdf"
+                target="_blank"
+                class="about-me__link"
+                aria-label="View my resume (PDF)"
+              >
+                <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+          <figure class="about-me__image--container">
+            <img
+              src="assets/undraw_websites.svg"
+              alt="Illustration of a developer building websites"
+            />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="languages">
+      <div class="container">
+        <div class="row">
+          <h1 class="section__title">
+            This is my <span class="text--purple">technology stack</span>
+          </h1>
+          <div class="language__list">
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"
+                  alt="HTML"
+                  class="language__img"
+                />
+              </figure>
+              <span class="language__name">HTML</span>
+            </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png"
+                  alt="CSS"
+                  class="language__img"
+                />
+              </figure>
+              <span class="language__name">CSS</span>
+            </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png"
+                  alt="JavaScript"
+                  class="language__img"
+                />
+              </figure>
+              <span class="language__name">JavaScript</span>
+            </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img
+                  src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png"
+                  alt="React"
+                  class="language__img"
+                />
+              </figure>
+              <span class="language__name">React</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <div class="row">
+          <h1 class="section__title">
+            Here are some of my <span class="text--purple">projects</span>
+          </h1>
+          <ul class="project__list">
+            <li class="project">
+              <div class="project__wrapper">
+                <img
+                  src="assets/skin_project.png"
+                  class="project__img"
+                  alt="AI Skinstric project"
+                />
+                <div class="project__discription">
+                  <h3 class="project__discription--title">A. I. Project</h3>
+                  <h4 class="project__discription--sub-title">
+                    Html, CSS, JavaScript, React
+                  </h4>
+                  <p class="project__discription--para">
+                    This project stores user data in a database and leverages
+                    artificial intelligence to generate estimated age, race, and
+                    gender attributes from a photograph.
+                  </p>
+                  <div class="project__discription--links">
+                    <a
+                      href="https://github.com/Becka8Tech/Skinstric-Internship"
+                      target="_blank"
+                      class="project__discription--link"
+                      aria-label="View A.I. Project source code on GitHub"
+                    >
+                      <i class="fa-brands fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a
+                      href="https://skinstric-internship-iota.vercel.app/"
+                      class="project__discription--link"
+                      target="_blank"
+                      aria-label="View live A.I. Project demo"
+                    >
+                      <i class="fa-solid fa-link" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="project">
+              <div class="project__wrapper">
+                <img
+                  src="assets/ultraverse_intern_project.png"
+                  class="project__img"
+                  alt="Ultraverse project"
+                />
+                <div class="project__discription">
+                  <h3 class="project__discription--title">
+                    Ultraverse Project
+                  </h3>
+                  <h4 class="project__discription--sub-title">
+                    Html, CSS, JavaScript, React
+                  </h4>
+                  <p class="project__discription--para">
+                    A dynamic web application that allows users to explore
+                    digital assets (NFTs) with seamless API integration and
+                    dynamic routing. Implemented animated carousel-based library
+                    views, pagination, and skeleton loading states to enhance
+                    performance and user experience. Focused on scalable
+                    frontend architecture and responsive design.
+                  </p>
+                  <div class="project__discription--links">
+                    <a
+                      href="https://github.com/Becka8Tech/rebekah-internship"
+                      target="_blank"
+                      class="project__discription--link"
+                      aria-label="View Ultraverse Project source code on GitHub"
+                    >
+                      <i class="fa-brands fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a
+                      href="https://rebekah-internship.vercel.app/"
+                      class="project__discription--link"
+                      target="_blank"
+                      aria-label="View live Ultraverse Project demo"
+                    >
+                      <i class="fa-solid fa-link" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="project">
+              <div class="project__wrapper">
+                <img
+                  src="assets/summarist_adv_Intern.png"
+                  class="project__img"
+                  alt="Advanced internship project"
+                />
+                <div class="project__discription">
+                  <h3 class="project__discription--title">Summarist Project</h3>
+                  <h4 class="project__discription--sub-title">
+                    Next.js, TypeScript, Firebase, Stripe
+                  </h4>
+                  <p class="project__discription--para">
+                    A full-stack, production-ready web application. Implemented
+                    user authentication, subscription-based payments, dynamic
+                    routing, global state management, and API-driven content
+                    delivery. Deployed on Vercel with responsive UI components,
+                    skeleton loading states, and an integrated audio player.
+                  </p>
+                  <div class="project__discription--links">
+                    <a
+                      href="https://github.com/Becka8Tech/Adv-Virtual-Internship"
+                      target="_blank"
+                      class="project__discription--link"
+                      aria-label="View Summarist Project source code on GitHub"
+                    >
+                      <i class="fa-brands fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a
+                      href="https://adv-virtual-internship-x3k3.vercel.app/"
+                      class="project__discription--link"
+                      target="_blank"
+                      aria-label="View live Summarist Project demo"
+                    >
+                      <i class="fa-solid fa-link" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="row footer__row">
+        <a href="#about-me" class="footer__anchor">
+          <figure class="footer__logo">
+            <img
+              src="assets/rm_logo.png"
+              class="footer__logo--img"
+              alt="Logo"
+            />
+          </figure>
+          <span class="footer__logo--popper">
+            Top
+            <i class="fas fa-arrow-up" aria-hidden="true"></i>
+          </span>
+        </a>
+
+        <div class="footer__social--list">
+          <a
+            href="https://github.com/Becka8Tech"
+            target="_blank"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            aria-label="Visit my GitHub profile"
+            >GitHub</a
+          >
+          <a
+            href="https://www.linkedin.com/in/rebekah-miller-a0a26313/"
+            target="_blank"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            aria-label="Visit my LinkedIn profile"
+            >LinkedIn</a
+          >
+          <a
+            href="mailto:rebekahmiller18@gmail.com"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            aria-label="Send me an email"
+            >Email</a
+          >
+          <a
+            href="assets/Rebekah_Miller_Resume.pdf"
+            target="_blank"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            aria-label="View my resume (PDF)"
+            >Resume</a
+          >
+        </div>
+
+        <div class="footer__copyright">
+          Copyright <i class="fa-solid fa-copyright" aria-hidden="true"></i> 2025 Rebekah Miller
+        </div>
+      </div>
+    </footer>
+
+    <!-- Contact modal -->
+    <div
+      id="contact-modal"
+      class="modal"
+      aria-hidden="true"
+      role="dialog"
+      aria-labelledby="contact-title"
+    >
+      <div class="modal__overlay" data-modal-close></div>
+      <div class="modal__content" role="document">
+        <button class="modal__close" aria-label="Close contact form">
+          &times;
+        </button>
+        <h2 id="contact-title">Contact Me</h2>
+        <form id="contact-form" novalidate>
+          <label for="contact-name"
+            >Name
+            <input id="contact-name" name="name" type="text" required />
+          </label>
+
+          <label for="contact-email"
+            >Email
+            <input id="contact-email" name="email" type="email" required />
+          </label>
+
+          <label for="contact-message"
+            >Message
+            <textarea
+              id="contact-message"
+              name="message"
+              rows="5"
+              required
+            ></textarea>
+          </label>
+
+          <div class="form__errors" aria-live="polite"></div>
+
+          <div class="form__actions">
+            <button
+              type="submit"
+              class="nav__link--anchor nav__link--anchor-primary"
+            >
+              Send
+            </button>
+            <button type="button" class="modal__cancel">Cancel</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="./theme-toggle.js" defer></script>
+    <script src="./contact.js" defer></script>
+  </body>
+</html>
